@@ -5,7 +5,8 @@ import pandas as pd
 # PAGE CONFIG
 # ==================================================
 st.set_page_config(
-    page_title="CX Agent KPI Dashboard",
+    page_title="KEETA AGENT VIEW",
+    page_icon="🐆",
     layout="wide"
 )
 
