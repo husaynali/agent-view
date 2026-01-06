@@ -221,8 +221,8 @@ with c2:
 st.markdown("<h4 style='color:#1f2937;'>⏱ Efficiency & Attendance</h4>", unsafe_allow_html=True)
 c1, c2 = st.columns(2)
 with c1:
-    kpi_card("AHT", row["AHT_MIN"], "minutes")
+    kpi_card("AHT", f"{row['AHT_MIN']:.3f}", "minutes")
     kpi_card("Absent Days", row["ABSENT"], "days", "#d62728")
 with c2:
-    kpi_card("ART", row["ART_MIN"], "minutes")
+    kpi_card("ART", f"{row['ART_MIN']:.3f}", "minutes")
     kpi_card("Variable Score", row["VARIABLE"], "%", "#ff7f0e")
